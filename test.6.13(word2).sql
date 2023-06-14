@@ -73,8 +73,6 @@ then '中老年'  else '青年' end ) as '群体' from emp_dep;
 select id,name,(case when age/10>=5 then '中老年' else '青年' 
 end) as '群体' from emp_dep;
 
-#  五、查询
-
 
 
 
