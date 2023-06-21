@@ -52,3 +52,5 @@ insert into students_score values(21,'美羊羊',67,89,99,78);
 
 select * from students_score;
 
+drop table students_score;
+
