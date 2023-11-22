@@ -26,7 +26,7 @@ set sql_safe_updates=0;
 select * from students_inf;
 
 -- 从表：学生成绩表，记录学生成绩，id作为外键连接到学生信息表，进行约束
-create table students_score(
+create table `students_score`(
 	`score_id` varchar(12) primary key,
     `name` varchar(4) not null,
     `Java` tinyint unsigned default 0,
